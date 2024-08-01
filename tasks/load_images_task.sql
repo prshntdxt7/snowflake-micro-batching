@@ -1,0 +1,4 @@
+create or replace task APP_DB.APP_SCHEMA.LOAD_IMAGES_TASK
+	warehouse=COMPUTE_WH
+	when system$stream_has_data('APP_DB.APP_SCHEMA.IMAGES_RAW_STREAM')
+	as CALL APP_DB.APP_SCHEMA.LOAD_AND_TRUNCATE_IMAGES();

@@ -1,0 +1,1 @@
+create or replace stream APP_DB.APP_SCHEMA.IMAGE_TAGS_RAW_STREAM on table IMAGE_TAGS_RAW;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE FILE FORMAT json_format TYPE = 'JSON';

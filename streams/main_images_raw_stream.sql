@@ -1,0 +1,1 @@
+create or replace stream APP_DB.APP_SCHEMA.MAIN_IMAGES_RAW_STREAM on table MAIN_IMAGES_RAW;
